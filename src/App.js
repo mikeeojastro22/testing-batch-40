@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Counter from './components/Counter.jsx';
+import Bank from './components/Bank/Bank.jsx';
+import Budget from './components/Budget/Budget.jsx';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           Learn React
         </a>
         <Counter />
+        <Bank />
+        <Budget />
       </header>
     </div>
   );

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Budget.css';
-import { PieChart } from '@mui/x-charts/PieChart';
+// import { PieChart } from '@mui/x-charts/PieChart';
 
 function Budget() {
     const [expense, setExpense] = useState("");
@@ -50,7 +50,7 @@ function Budget() {
             />
             <br />
             <button onClick={addExpense}>Add Expense</button>
-            <PieChart
+            {/* <PieChart
                 series={[
                     {
                     data: itemList,
@@ -58,7 +58,7 @@ function Budget() {
                 ]}
                 width={200}
                 height={200}
-            />
+            /> */}
             
         </div>
     );
